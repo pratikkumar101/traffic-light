@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    border: 1px solid white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.buttons>.btn {
+    padding: 20px;
+    margin: 20px;
+}
+
+#red {
+    background-color: Red; /* Green */
+    /* border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer; */
+    /* You can add more styles as needed */
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#all {
+    background-image: linear-gradient(to right, red , yellow, green);
+}
+
+.signals {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+}
+
+.signals>.light {
+    padding: 50px;
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
